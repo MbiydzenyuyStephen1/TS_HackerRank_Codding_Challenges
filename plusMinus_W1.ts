@@ -1,13 +1,17 @@
-function plusMinus(arr: number[]): void {
-    
-    //Algorithm
-    //Objective is to sort numbers of the type 0,negative and postive, then look for their ratios and round to 6decimal places
+//Name of the Problem: Plus Minus
+
+    //Objective of the problem
+        //Objective is to sort numbers of the type 0, negative and postive, 
+        //then look for their ratios and round them to 6decimal places each
+
+//Algorithm
     //1. Declare three variables of type array of numbers to hold the numbers 
     //2. compute the total number of the nmbers in the array
     //3. check the value of numbers and push them to their respective arrays
     //4. Print each result while dividing the number of numbers on each array by the total number of numbers on the initial array to have the ratio of each of the  three categories and the round them to 6 decimal places
     // Write your code here
-    
+
+function plusMinus(arr: number[]): void {    
     let positiveNum: number[] = [];
     let negativeNum: number[] = [];
     let zeroNum: number[] = [];
