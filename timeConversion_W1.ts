@@ -13,7 +13,7 @@
         //6. Else if hour is not 12 we add what ever is in hour with 12
         //7.Convert hour back to string
 
-function timeConversion(s: string): string {
+function timeConversion(s: string): string {a
 
     const lastDigit: string = s.slice(-2);
     
