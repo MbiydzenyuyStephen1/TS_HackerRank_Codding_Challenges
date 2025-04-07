@@ -2,7 +2,7 @@
 
 //Objective of the problem
     //Objective is to count the number of valleys in a given path
-    
+
 //Algorithm
     //1. Declare a variable to hold the number of valleys, set it to 0      
     //2. Declare a variable to hold the altitude, set it to 0
